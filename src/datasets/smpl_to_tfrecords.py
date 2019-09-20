@@ -21,7 +21,7 @@ from tqdm import tqdm
 from src.datasets.common import float_feature
 
 
-tf.app.flags.DEFINE_boolean('temporal', True,
+tf.app.flags.DEFINE_boolean('temporal', False,
                             'If True, generates tfrecords for delta poses')
 tf.app.flags.DEFINE_string(
     'dataset_name',
